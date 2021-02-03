@@ -6,7 +6,9 @@ const Weather = () => {
     const API_KEY = 'be60df35e970325372a15cae817159b9';
     const ICON_URL = 'http://openweathermap.org/img/wn/';
 
-    const API
+    const [temp, setTemp] = useState(0);
+    const [description, setDescription] = useState('')
+    const [icon, setIcon] = useState('')
     return (
         <View>
             <Text></Text>
